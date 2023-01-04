@@ -1,0 +1,655 @@
+@media screen and (max-width: 1893px) {
+    .logo {
+        margin-left: 150px;
+        font-size: 47px;
+    }
+
+    .text-tel1 {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .text-tel {
+        font-size: 20px;
+    }
+
+    .mailimg {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 1593px) {
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;
+        margin-right: 50px;
+    }
+
+    .header_burger::before,
+    .header_burger:after {
+        content: '';
+        background-color: #ffffff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav-list {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5d5d5d;
+        padding: 100px 10px 20px 10px;
+        display: block;
+        text-align: inherit;
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav-list.active {
+        top: 0;
+    }
+
+    .nav-list li {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .header_burger:after {
+        bottom: 0;
+    }
+
+    .header_burger:before {
+        top: 0;
+    }
+
+    .header_burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header_burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header_burger.active span {
+        transform: scale(0);
+    }
+
+    .header_burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+}
+
+@media screen and (max-width: 1593px) {
+
+    /* .nav-list {
+        display: none;
+    } */
+
+    /* .nav.open .nav-list {
+        display: flex;
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background-color: #282828;
+
+        padding: 46px 30px;
+
+        flex-direction: column;
+        row-gap: 40px;
+        font-size: 34px;
+        font-weight: 700;
+
+        z-index: 1;
+    } */
+
+    .text-tel1,.mailimg,.chasimg,.telimg,.text-tel {
+        display: none;
+    }
+
+    .button-nav {
+        display: block;
+        margin-right: 80px;
+    }
+
+    .logo {
+        margin-left: 100px;
+        font-size: 47px;
+    }
+
+    .text-tel1 {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .text-tel {
+        font-size: 20px;
+    }
+
+    body.lock {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .text-tel1,.mailimg,.chasimg,.telimg,.text-tel {
+        display: none;
+    }
+
+    .button-nav {
+        display: block;
+    }
+
+    .benefits-nav {
+        max-width: inherit;
+        margin-left: inherit;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .text-title {
+        font-size: 50px;
+    }
+
+    .bg {
+        height: 635px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .text-title {
+        padding-top: 110px;
+    }
+
+    .bg {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .benefits-item {
+        width: 100%;
+    }
+
+    .benefits-list {
+        justify-content: center;
+    }
+
+    .benefits-icon {
+        margin-left: inherit;
+    }
+
+    .benefits-card {
+        margin-top: 50px;
+    }
+
+    .benefits-title {
+        font-size: 45px;
+    }
+
+    .benefits-text1 {
+        font-size: 30px;
+    }
+
+    .benefits-text2 {
+        font-size: 30px;
+    }
+
+    .benefits-text3 {
+        font-size: 30px;
+    }
+
+    .benefits-text4 {
+        font-size: 30px;
+    }
+
+    .benefits-text5 {
+        font-size: 30px;
+    }
+
+    .textcontact, .textcontact2, .textcontact3 {
+        font-size: 21px;
+    }
+
+    .contact-img2, .contact-img3 {
+        margin-left: 32px;
+    }
+
+    .textcontact, .textcontact2, .textcontact3 {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 942px) {
+
+    .header {
+        height: 70px;
+    }
+
+    .header-nav {
+        margin-top: 10px;
+    }
+
+    .palka {
+        padding-top: 80px;
+    }
+
+    .logo {
+        margin-left: 30px;
+        font-size: 40px;
+    }
+
+    .text-tel1,.mailimg,.chasimg,.telimg,.text-tel {
+        display: none;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-title {
+        padding-top: 85px;
+    }
+
+    .bg {
+        height: 515px;
+    }
+
+    .title {
+        font-size: 27px;
+        padding-top: 25px;
+    }
+
+    .title {
+        text-align: center;
+        max-width: inherit;
+    }
+
+    .text-title {
+        text-align: center;
+        max-width: inherit;
+    }
+
+    .benefits-text5,.benefits-text4,.benefits-text3,.benefits-text2,.benefits-text1 {
+        padding: inherit;
+    }
+
+    .bg {
+        height: 572px;
+    }
+
+    .about {
+        font-size: 38px;
+    }
+
+    .about-nav {
+        font-size: 29px;
+        margin-top: 30px;
+    }
+
+    .benefits {
+        font-size: 44px;
+    }
+
+    .benefits-nav {
+        font-size: 28px;
+        margin-top: 38px;
+    }
+
+    .contact-img2, .contact-img3 {
+        margin-left: 32px;
+    }
+
+    .textcontact, .textcontact2, .textcontact3 {
+        font-size: 18px;
+    }
+
+    .order-list {
+        font-size: 25px;
+    }
+
+    .price-card {
+        font-size: 25px;
+    }
+
+    .orger-card {
+        font-size: 43px;
+    }
+
+    .features-item {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .text-title {
+        padding-top: 85px;
+    }
+
+    .bg {
+        height: 515px;
+    }
+
+    .title {
+        font-size: 27px;
+        padding-top: 25px;
+    }
+
+    .features-item {
+        width: 100%;
+    }
+
+    .features {
+        margin-top: 30px;
+    }
+
+    .contact-nav {
+        display: block;
+    }
+
+    .mail__q, .tel12345, .loc {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .contact-img2, .contact-img3 {
+        margin-left: inherit;
+    }
+
+    .textcontact, .textcontact2, .textcontact3 {
+        font-size: 20px;
+    }
+
+    .contact-list {
+        margin-top: 70px;
+        font-size: 44px;
+    }
+
+    .contact-card {
+        font-size: 24px;
+    }
+
+    .price-list {
+        font-size: 44px;
+    }
+
+    .orger-card {
+        font-size: 44px;
+    }
+
+    .around-list {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .around-list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 555px) {
+
+    .button-two {
+        font-size: 25px;
+        padding: 10px 25px;
+        min-height: inherit;
+    }
+
+    .logo {
+        font-size: 33px;
+    }
+
+    .about {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .button {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+
+    .title {
+        font-size: 23px;
+    }
+
+    .benefits-nav {
+        font-size: 23px;
+    }
+
+    .benefits-title {
+        font-size: 35px;
+    }
+
+    .benefits-text1, .benefits-text2, .benefits-text3, .benefits-text4, .benefits-text5 {
+        font-size: 23px;
+    }
+
+    .text-title {
+        font-size: 40px;
+    }
+
+    .text-contact {
+        font-size: 26px;
+    }    
+
+    .benefits-text1,.benefits-text2,.benefits-text3,.benefits-text4,.benefits-text5{
+        font-size: 26px;
+    }
+
+    .about {
+        font-size: 35px;
+    }
+
+    .about-nav {
+        font-size: 23px;
+    }
+
+    .contact-list,.price-list,.orger-card,.benefits {
+        font-size: 39px;
+    }
+
+    .bg {
+        height: 476px;
+    }
+
+    .order-list {
+        font-size: 23px;
+    }
+
+    .text-contact {
+        font-size: 23px;
+    }
+
+    .around-card {
+        font-size: 20px;
+    }
+
+    .price-card {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .header {
+        height: 50px;
+    }
+
+    .header-nav {
+        margin-top: 8px;
+    }
+
+    .palka {
+        padding-top: 50px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .header_burger {
+        margin-right: 20px;
+    }
+
+    .title {
+        font-size: 23px;
+    }
+    .text-title {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .bg {
+        height: 486px;
+    }
+
+    .about,.contact-list,.price-list,.orger-card,.benefits {
+        font-size: 29px;
+    }
+
+    .about-nav,.benefits-nav,.benefits-text1, .benefits-text2, .benefits-text3, .benefits-text4, .benefits-text5,.order-list,.price-card {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .benefits-icon {
+        width: 40px;
+    }
+
+    .mail__q, .tel12345, .loc {
+        display: inherit;
+        text-align: center;
+    }
+
+    .text-contact,.around-card {
+        font-size: 17px;
+    }
+
+    .around-img {
+        width: 30px;
+    }
+
+    .textcontact, .textcontact2, .textcontact3 {
+        font-size: 20px;
+        margin-top: 6px;
+    }
+    
+    .contact-img3 {
+        width: 35px;
+    }
+
+    .around,.around2,.around3 {
+        text-align: center;
+    }
+
+    .contact-img2,.contact-img {
+        width: 25px;
+    }
+
+    .mail__q, .tel12345, .loc {
+        justify-content: inherit;
+    }
+
+    .title {
+        font-size: 19px;
+    }
+
+    .button,.button-two {
+        font-size: 25px;
+        padding: 10px 25px;
+        min-height: inherit;
+    }
+
+    .bg {
+        height: 400px;
+    }
+
+    .about, .contact-list, .price-list, .orger-card, .benefits {
+        font-size: 26px;
+    }
+
+    .about-nav, .benefits-nav, .benefits-text1, .benefits-text2, .benefits-text3, .benefits-text4, .benefits-text5, .order-list, .price-card {
+        font-size: 20px;
+    }
+
+    .benefits {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .features-text {
+        font-size: 20px;
+    }
+
+    .benefits-icon {
+        width: 35px;
+    }
+
+    .benefits-title {
+        font-size: 30px;
+    }
+} 
+
+@media screen and (max-width: 375px) {
+    .logo {
+        font-size: 25px;
+        margin-left: 3px;
+    }
+
+    .text-title {
+        font-size: 27px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .benefits-title {
+        font-size: 27px;
+    }
+
+    .about, .contact-list, .price-list, .orger-card, .benefits {
+        font-size: 30px;
+    }
+}
+
